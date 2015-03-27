@@ -6,6 +6,7 @@ This is the game engine for Warlight AI Challenge 2 at theaigames.com
 This version of our Warlight AI Challenge 2 engine has been set up for local use, for your own convenience. Note that this does *not* include the map generator and the visualizer.
 
 To compile (Windows, untested):
+
     cd [project folder]
     dir /b /s *.java>sources.txt
     md classes
