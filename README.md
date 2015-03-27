@@ -1,21 +1,22 @@
-poker-engine
+warlight2-engine
 ============
 
-Poker engine for Heads-up Omaha at TheAIGames.com
+This is the game engine for Warlight AI Challenge 2 at theaigames.com
 
-This version of our Poker engine has been set up for local use, for your own convenience. Notice that this engine is not *only* for Heads-up Omaha and can play other versions of poker as well. We will probably host other poker competitions in the future.
+This version of our Warlight AI Challenge 2 engine has been set up for local use, for your own convenience. Note that this does *not* include the map generator and the visualizer.
 
 To compile (Linux):
 
     cd [project folder]
-    javac -sourcepath src/ -d bin/ `find src/ -name '*.java' -regex '^[./A-Za-z0-9]*$'`
+    mkdir bin/
+    javac -sourcepath src/ -d bin/ -cp lib/java-json.jar `find src/ -name '*.java' -regex '^[./A-Za-z0-9]*$'`
     
 To run:
 
-    java nl.starapple.backend.RunPoker 2000 [your bot1] [your bot2] 2>err.txt 1>out.txt
-    
-[your bot1] could be any command for running a bot process. For instance "java main.BotStarter" or "node /home/user/bot/Bot.js"
+    cd [project folder]
+    java -cp lib/java-json.jar:bin com.theaigames.game.warlight2.Warlight2 [map file] [your bot1] [your bot2] 2>err.txt 1>out.txt
 
-2000 is the starting stack for both bots.
+[map file] is a file that contains a string representation of the map that the game will use. An example is included in this repository called "example-map.txt". For other maps, go to any Warlight AI Challenge 2 game on theaigames.com and add "/map" to the end of the URL and copy that text to a file.
+[your bot1] and [your bot2] could be any command for running a bot process. For instance "java -cp /home/dev/starterbot/bin/ main.BotStarter" or "node /home/user/bot/Bot.js"
 
 Errors will be logged to err.txt, output dump will be logged to out.txt.
