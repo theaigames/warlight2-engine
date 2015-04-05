@@ -10,7 +10,7 @@ Usage
 
 ### Download
 
-Download link will be added shortly.
+You can download the latest version of the Warlight2 Engine here: [warlight2-engine-1.0.0.jar](https://github.com/flungo/warlight2-engine/releases/download/v1.0.0/warlight2-engine-1.0.0.jar). Find the all downloads (including older versions) on the [release page](https://github.com/flungo/warlight2-engine/releases).
 
 #### Running the jar
 
