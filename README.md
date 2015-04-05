@@ -10,7 +10,7 @@ Usage
 
 ### Download
 
-You can download the latest version of the Warlight2 Engine here: [warlight2-engine-1.0.0.jar](https://github.com/flungo/warlight2-engine/releases/download/v1.0.0/warlight2-engine-1.0.0.jar). Find the all downloads (including older versions) on the [release page](https://github.com/flungo/warlight2-engine/releases).
+You can download the latest version of the Warlight2 Engine here: [warlight2-engine-1.0.0.jar](https://github.com/theaigames/warlight2-engine/releases/download/v1.0.0/warlight2-engine-1.0.0.jar). Find the all downloads (including older versions) on the [release page](https://github.com/theaigames/warlight2-engine/releases).
 
 #### Running the jar
 
@@ -32,10 +32,10 @@ Errors will be logged to `err.txt`, output dump will be logged to `out.txt`.
 If you have `git` installed the easiest way to get the source is to clone the repository:
 
 ```
-git clone https://github.com/flungo/warlight2-engine
+git clone https://github.com/theaigames/warlight2-engine
 ```
 
-Alternatively, you can download the repository as a [zip](https://github.com/flungo/warlight2-engine/archive/master.zip) or [tar.gz](https://github.com/flungo/warlight2-engine/archive/master.tar.gz) and extract using the appropriate tools for your OS.
+Alternatively, you can download the repository as a [zip](https://github.com/theaigames/warlight2-engine/archive/master.zip) or [tar.gz](https://github.com/theaigames/warlight2-engine/archive/master.tar.gz) and extract using the appropriate tools for your OS.
 
 #### Compiling the source
 
