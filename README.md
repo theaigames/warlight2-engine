@@ -17,7 +17,7 @@ You can download the latest version of the Warlight2 Engine here: [warlight2-eng
 The downloaded `.jar` file is easily run on any OS with the Java Virtual Machine (JVM) installed with the following:
 
 ```
-java -jar warlight2-engine-1.0.0--.jar [map file] [your bot1] [your bot2] 2>err.txt 1>out.txt
+java -jar warlight2-engine-1.0.0.jar [map file] [your bot1] [your bot2] 2>err.txt 1>out.txt
 ```
 
 -	`[map file]` is a file that contains a string representation of the map that the game will use. An example is included in this repository called `example-map.txt`. For other maps, go to any Warlight AI Challenge 2 game on theaigames.com and add `/map` to the end of the URL and copy that text to a file.
@@ -51,7 +51,7 @@ mvn build
 After building from source, the output file will be in the `target` folder. To run you need to do the following command:
 
 ```
-java -jar target/warlight2-engine-1.0.0.jar [map file] [your bot1] [your bot2] 2>err.txt 1>out.txt
+java -jar target/warlight2-engine-1.0.0-jar-with-dependencies.jar [map file] [your bot1] [your bot2] 2>err.txt 1>out.txt
 ```
 
 For information on the run arguments, see [Run Section](#running-the-jar)
