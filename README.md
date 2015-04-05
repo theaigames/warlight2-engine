@@ -35,7 +35,7 @@ If you have `git` installed the easiest way to get the source is to clone the re
 git clone https://github.com/flungo/warlight2-engine
 ```
 
-Alternatively, you can download the repository as a [zip](https://github.com/flungo/warlight2-engine/archive/master.zip) and extract using the appropriate tools for your OS.
+Alternatively, you can download the repository as a [zip](https://github.com/flungo/warlight2-engine/archive/master.zip) or [tar.gz](https://github.com/flungo/warlight2-engine/archive/master.tar.gz) and extract using the appropriate tools for your OS.
 
 #### Compiling the source
 
